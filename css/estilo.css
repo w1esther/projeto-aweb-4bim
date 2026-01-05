@@ -1,8 +1,8 @@
 h2 {
     position: relative;
-    font-size: 36px;
-    top: 200px;
-    left: 200px;
+    font-size: 46px;
+    top: 100px;
+    right: 270px;
     color: #ffffff; /* cor do texto */
     text-shadow:
     0 0 5px #ffffff,
@@ -13,9 +13,9 @@ h2 {
 
 h1 {
     position: relative;
-    font-size: 88px;
+    font-size: 98px;
     top: 100px;
-    left: 200px;
+    right: 265px;
     color: #4f6caa;
     font-family: Arial, sans-serif;
     width: 600px;
@@ -23,9 +23,9 @@ h1 {
 
 #h1 {
     position: relative;
-    font-size: 88px;
-    top: -58px;
-    left: 205px;
+    font-size: 98px;
+    top: -10px;
+    right: 270px;
     color: #1b4db9;
     text-shadow:
     0 0 5px #1b4db9,
@@ -35,9 +35,9 @@ h1 {
 h3 {
     width: 600px;
     position: relative;
-    font-size: 38px;
-    top: -160px;
-    left: 200px;
+    font-size: 48px;
+    top: -15px;
+    right: 270px;
     color: #4f6caa;
     font-family: 'Times New Roman', Times, serif;
     color: #ffffff; /* cor do texto */
@@ -65,7 +65,7 @@ body {
 #foto_incial {
     position: relative;
     height: 450px;
-    bottom: 500px;
+    bottom: 300px;
     left: 750px;
     border-radius: 300px 300px 0px 0px;
 }
