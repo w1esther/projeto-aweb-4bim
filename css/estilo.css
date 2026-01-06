@@ -54,7 +54,7 @@ h3 {
 }
 
 body {
-    background-image: linear-gradient(90deg, #2d45b8, #040234);
+    background-image: linear-gradient(90deg, #031572, #020126);
 }
 
 /* * {
@@ -65,7 +65,42 @@ body {
 #foto_incial {
     position: relative;
     height: 450px;
-    bottom: 300px;
+    bottom: 350px;
     left: 750px;
     border-radius: 300px 300px 0px 0px;
+    box-shadow:
+    0 0 20px #081c74,
+    0 0 20px #08026f,
+    0 0 0px #ffffff;
+}
+
+.retangulo1 {
+    height: 120px;
+    width: 1520px;
+    background-color: #001449;
+    position: relative;
+    bottom: 340px;
+}
+
+.frase_principal {
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    bottom: 410px;
+    right: 380px;
+    font-size: 18px;
+    text-shadow:
+    0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 0px #ffffff;
+}
+
+.instagram {
+    position: relative;
+    bottom: 415px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #01125c;
 }
