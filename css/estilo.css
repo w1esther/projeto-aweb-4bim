@@ -1,7 +1,7 @@
 h2 {
     position: relative;
     font-size: 46px;
-    top: 100px;
+    top: 50px;
     right: 270px;
     color: #ffffff; /* cor do texto */
     text-shadow:
@@ -14,7 +14,7 @@ h2 {
 h1 {
     position: relative;
     font-size: 98px;
-    top: 100px;
+    top: 50px;
     right: 265px;
     color: #4f6caa;
     font-family: Arial, sans-serif;
@@ -24,7 +24,7 @@ h1 {
 #h1 {
     position: relative;
     font-size: 98px;
-    top: -10px;
+    top: -60px;
     right: 270px;
     color: #1b4db9;
     text-shadow:
@@ -36,7 +36,7 @@ h3 {
     width: 600px;
     position: relative;
     font-size: 48px;
-    top: -15px;
+    top: -65px;
     right: 270px;
     color: #4f6caa;
     font-family: 'Times New Roman', Times, serif;
@@ -65,9 +65,10 @@ body {
 #foto_incial {
     position: relative;
     height: 450px;
-    bottom: 350px;
+    width: 700px;
+    bottom: 370px;
     left: 750px;
-    border-radius: 300px 300px 0px 0px;
+    border-radius: 400px 400px 0px 0px;
     box-shadow:
     0 0 20px #081c74,
     0 0 20px #08026f,
@@ -86,7 +87,7 @@ body {
     text-align: center;
     color: #ffffff;
     position: relative;
-    bottom: 410px;
+    bottom: 470px;
     right: 380px;
     font-size: 18px;
     text-shadow:
@@ -103,4 +104,27 @@ body {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     color: #01125c;
+}
+
+#logo_instagram {
+    color: #01125c;
+    font-size: 34px;
+    position: relative;
+    bottom: 445px;
+    left: 645px;
+}
+
+.frase_menu {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    position: relative;
+    bottom: 103px;
+    left: 600px;
+    width: 200px;
+}
+
+.rodape {
+    position: relative;
+    bottom: 30px;
 }
