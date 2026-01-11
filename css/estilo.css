@@ -1,61 +1,68 @@
-h2 {
-    position: relative;
-    font-size: 56px;
-    top: 130px;
-    right: 270px;
-    color: #ffffff; /* cor do texto */
-    text-shadow:
-    0 0 5px #ffffff,
-    0 0 10px #ffffff,
-    0 0 0px #ffffff;
-    width: 600px;
+body {
+  background-image: linear-gradient(90deg, #020d42, #040147);
+  height: 5900px;
+  overflow-x: hidden;
 }
 
-h1 {
-    position: relative;
-    font-size: 108px;
-    top: 130px;
-    right: 265px;
-    color: #4f6caa;
-    font-family: Arial, sans-serif;
-    width: 600px;
-    }
-
-#h1 {
-    position: relative;
-    font-size: 108px;
-    top: 10px;
-    right: 270px;
-    color: #1b4db9;
-    text-shadow:
-    0 0 5px #1b4db9,
-    0 0 10px #1b4db9,
+html {
+  scroll-behavior: smooth;
 }
 
-h3 {
-    width: 600px;
-    position: relative;
-    font-size: 58px;
-    top: 20px;
-    right: 270px;
-    color: #4f6caa;
-    font-family: 'Times New Roman', Times, serif;
-    color: #ffffff; /* cor do texto */
-    text-shadow:
-    0 0 5px #ffffff,
-    0 0 10px #ffffff,
-    0 0 0px #ffffff;
+#about, .about {
+  position: relative;
+  font-size: 46px;
+  top: 45px;
+  right: 270px;
+  color: #ffffff; /* cor do texto */
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 0px #ffffff;
+  width: 600px;
 }
 
+#frsprin {
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  bottom: 450px;
+  right: 380px;
+  font-size: 18px;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 0px #ffffff;
+}
+
+#expo1 {
+  position: relative;
+  font-size: 98px;
+  top: 45px;
+  right: 265px;
+  color: #b8b8b8;
+  font-family: Arial, sans-serif;
+  width: 600px;
+}
+
+#expo2 {
+  position: relative;
+  font-size: 98px;
+  top: -65px;
+  left: 100px;
+  color: #1b4db9;
+  text-shadow: 0 0 5px #1b4db9, 0 0 10px #1b4db9;
+  font-family: Arial, sans-serif;
+}
+
+#year {
+  width: 600px;
+  position: relative;
+  font-size: 48px;
+  top: -65px;
+  right: 270px;
+  color: #4f6caa;
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffff; /* cor do texto */
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 0px #ffffff;
+}
 
 * {
-    border-color: red;
-    border-width: 5px;
-}
-
-body {
-    background-image: linear-gradient(90deg, #031572, #020126);
-    height: 5000px;
+  border-color: red;
+  border-width: 5px;
 }
 
 /* * {
@@ -64,60 +71,106 @@ body {
 } */
 
 #foto_incial {
-    position: relative;
-    height: 450px;
-    width: 700px;
-    bottom: 300px;
-    left: 750px;
-    border-radius: 400px 400px 0px 0px;
-    box-shadow:
-    0 0 20px #081c74,
-    0 0 20px #08026f,
-    0 0 0px #ffffff;
+  position: relative;
+  height: 450px;
+  bottom: 350px;
+  left: 675px;
+  border-radius: 300px 300px 0px 0px;
+  box-shadow: 0 0 20px #081c74, 0 0 20px #08026f, 0 0 0px #ffffff;
 }
 
 .retangulo1 {
-    height: 120px;
-    width: 1520px;
-    background-color: #001449;
-    position: relative;
-    bottom: 340px;
-}
-
-.frase_principal {
-    text-align: center;
-    color: #ffffff;
-    position: relative;
-    bottom: 390px;
-    right: 330px;
-    font-size: 28px;
-    text-shadow:
-    0 0 5px #ffffff,
-    0 0 10px #ffffff,
-    0 0 0px #ffffff;
+  height: 120px;
+  width: 1520px;
+  background-color: #001449;
+  position: relative;
+  bottom: 340px;
 }
 
 .instagram {
-    position: relative;
-    bottom: 415px;
-    display: flex;
-    justify-content: center;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #01125c;
+  position: relative;
+  bottom: 415px;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #01125c;
 }
 
-#logo_instagram {
-    color: #01125c;
-    font-size: 34px;
-    position: relative;
-    bottom: 445px;
-    left: 645px;
+section {
+  position: relative;
+  left: 50px;
 }
 
-.rodape {
-    position: relative;
-    top: 8800px;
+#section-init {
+    position: absolute;
+    top: 0px;
+}
+
+#section-about {
+  position: absolute;
+  top: 650px;
+  left: 210px
+}
+
+.section-day1 {
+  position: absolute;
+  top: 1300px;
+}
+.section-day2 {
+  position: absolute;
+  top: 1950px;
+}
+.section-day3 {
+  position: absolute;
+  top: 2600px;
+}
+.section-day4 {
+  position: absolute;
+  top: 3250px;
+}
+.section-day5 {
+  position: absolute;
+  top: 3900px;
+}
+.section-registers {
+  position: absolute;
+  top: 4600px;
+}
+
+.section-name {
+  position: absolute;
+  top: 5250px;
+}
+
+#name {
+  font-size: 30px;
+  border: none;
+  
+  border-radius: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#day1,
+#day2,
+#day3,
+#day4,
+#day5,
+#registers1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 95px;
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 0px #ffffff;
+}
+
+#textexpotec {
+  width: 600px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-size: 14px;
+  bottom: 100px;
 }
 
 .t1_sobre {
@@ -131,13 +184,18 @@ body {
 }
 
 .oqueeexpotec {
-    width: 600px;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    top: 125px;
+  top: 50px;
+  right: 260px;
+}
+
+.objetivoexpotec {
+    top: 100px;
     right: 260px;
-    font-size: 14px;
+}
+
+#obj {
+  position: relative;
+  top: 80px
 }
 
 .t1_objetivo {
@@ -150,16 +208,6 @@ body {
     right: 120px;
     top: 150px;
     width: 900px;
-}
-
-.objetivoexpotec {
-    width: 600px;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    top: 175px;
-    right: 260px;
-    font-size: 14px;
 }
 
 .img_sobre {
@@ -175,27 +223,38 @@ body {
 #img1 {
     position: relative;
     bottom: 350px;
-    left: 1000px;
+    left: 550px;
 }
 
 #img2 {
     position: relative;
     bottom: 220px;
-    left: 1060px;
+    left: 610px;
 }
 
 #img3 {
     position: relative;
     bottom: 90px;
-    left: 600px;
+    left: 150px;
 }
 
 #img4 {
     position: relative;
-    left: 650px;
+    left: 200px;
     top: 40px;
 }
 
-.section_incial {
-    scroll-margin-top: 70px;
+
+.back-top {
+    position: fixed;
+    background-color: #1b4db9;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    box-sizing: content-box;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    left: 1275px;
+    bottom: 25px
 }
