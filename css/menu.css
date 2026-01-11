@@ -9,6 +9,11 @@
     padding: 0;
     background-color: #001449;
     text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 #menu li{
@@ -31,6 +36,7 @@
 .img_expotec {
     height: 60px;
     position: relative;
-    top: -57px;
+    top: 30px;
     left: 1400px;
+    position: static;
 }

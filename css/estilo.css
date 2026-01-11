@@ -1,7 +1,7 @@
 h2 {
     position: relative;
-    font-size: 46px;
-    top: 50px;
+    font-size: 56px;
+    top: 130px;
     right: 270px;
     color: #ffffff; /* cor do texto */
     text-shadow:
@@ -13,8 +13,8 @@ h2 {
 
 h1 {
     position: relative;
-    font-size: 98px;
-    top: 50px;
+    font-size: 108px;
+    top: 130px;
     right: 265px;
     color: #4f6caa;
     font-family: Arial, sans-serif;
@@ -23,8 +23,8 @@ h1 {
 
 #h1 {
     position: relative;
-    font-size: 98px;
-    top: -60px;
+    font-size: 108px;
+    top: 10px;
     right: 270px;
     color: #1b4db9;
     text-shadow:
@@ -35,8 +35,8 @@ h1 {
 h3 {
     width: 600px;
     position: relative;
-    font-size: 48px;
-    top: -65px;
+    font-size: 58px;
+    top: 20px;
     right: 270px;
     color: #4f6caa;
     font-family: 'Times New Roman', Times, serif;
@@ -67,7 +67,7 @@ body {
     position: relative;
     height: 450px;
     width: 700px;
-    bottom: 370px;
+    bottom: 300px;
     left: 750px;
     border-radius: 400px 400px 0px 0px;
     box-shadow:
@@ -88,9 +88,9 @@ body {
     text-align: center;
     color: #ffffff;
     position: relative;
-    bottom: 470px;
-    right: 380px;
-    font-size: 18px;
+    bottom: 390px;
+    right: 330px;
+    font-size: 28px;
     text-shadow:
     0 0 5px #ffffff,
     0 0 10px #ffffff,
@@ -115,17 +115,87 @@ body {
     left: 645px;
 }
 
-.frase_menu {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    position: relative;
-    bottom: 103px;
-    left: 600px;
-    width: 200px;
-}
-
 .rodape {
     position: relative;
-    bottom: 30px;
+    top: 8800px;
+}
+
+.t1_sobre {
+    font-size: 78px;
+    text-shadow:
+    0 0 5px #4f7eaa,
+    0 0 10px #4f6caa,
+    0 0 0px #4f6caa;
+    position: relative;
+    top: 120px;
+}
+
+.oqueeexpotec {
+    width: 600px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 125px;
+    right: 260px;
+    font-size: 14px;
+}
+
+.t1_objetivo {
+    font-size: 78px;
+    text-shadow:
+    0 0 5px #4f7eaa,
+    0 0 10px #4f6caa,
+    0 0 0px #4f6caa;
+    position: relative;
+    right: 120px;
+    top: 150px;
+    width: 900px;
+}
+
+.objetivoexpotec {
+    width: 600px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 175px;
+    right: 260px;
+    font-size: 14px;
+}
+
+.img_sobre {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    box-shadow:
+    0 0 20px #081c74,
+    0 0 20px #08026f,
+    0 0 0px #ffffff;
+}
+
+#img1 {
+    position: relative;
+    bottom: 350px;
+    left: 1000px;
+}
+
+#img2 {
+    position: relative;
+    bottom: 220px;
+    left: 1060px;
+}
+
+#img3 {
+    position: relative;
+    bottom: 90px;
+    left: 600px;
+}
+
+#img4 {
+    position: relative;
+    left: 650px;
+    top: 40px;
+}
+
+.section_incial {
+    scroll-margin-top: 70px;
 }
