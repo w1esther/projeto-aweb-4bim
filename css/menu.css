@@ -31,14 +31,6 @@
     border-radius: 20px;
 }
 
-.img_expotec {
-    height: 60px;
-    position: relative;
-    top: -57px;
-    left: 1400px;
-}
-
-
 #registro {
     display: inline-block;
     border : none;
@@ -48,6 +40,7 @@
     color: white;
     margin-right: 10px;
 }
+
 #registers {
     display: inline-block;
     border : none;

@@ -1,7 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   background-image: linear-gradient(90deg, #020d42, #040147);
-  height: 5900px;
+  min-height: 100vh;
   overflow-x: hidden;
+  
 }
 
 html {
@@ -14,7 +19,7 @@ html {
   top: 45px;
   right: 270px;
   color: #ffffff; /* cor do texto */
-  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 0px #ffffff;
+  text-shadow: 0 0 3px #ffffff, 0 0 4px #ffffff, 0 0 0px #ffffff;
   width: 600px;
 }
 
@@ -25,7 +30,7 @@ html {
   bottom: 450px;
   right: 380px;
   font-size: 18px;
-  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 0px #ffffff;
+  text-shadow: 0 0 3px #ffffff, 0 0 4px #ffffff, 0 0 0px #ffffff;
 }
 
 #expo1 {
@@ -57,10 +62,10 @@ html {
   color: #4f6caa;
   font-family: "Times New Roman", Times, serif;
   color: #ffffff; /* cor do texto */
-  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 0px #ffffff;
+  text-shadow: 0 0 3px #ffffff, 0 0 4px #ffffff, 0 0 0px #ffffff;
 }
 
-* {
+/* {
   border-color: red;
   border-width: 5px;
 }
@@ -74,7 +79,7 @@ html {
   position: relative;
   height: 450px;
   bottom: 350px;
-  left: 675px;
+  left: 46%;
   border-radius: 300px 300px 0px 0px;
   box-shadow: 0 0 20px #081c74, 0 0 20px #08026f, 0 0 0px #ffffff;
 }
@@ -158,13 +163,13 @@ section {
 #day4,
 #day5,
 #registers1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(3rem, 7vw, 6rem);
   font-size: 95px;
   color: #ffffff;
-  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 0px #ffffff;
+  text-shadow: 5px 0 5px #ffffff, 3px 0 3px #ffffff, 0 0 0px #f6efef;
 }
 
-#textexpotec {
+#textexpotec-oqueeexpotec,#textexpotec-objetivoexpotec {
   width: 600px;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
@@ -246,15 +251,123 @@ section {
 
 
 .back-top {
-    position: fixed;
-    background-color: #1b4db9;
-    border-radius: 20px;
-    color: white;
-    text-decoration: none;
-    box-sizing: content-box;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 15px;
-    left: 1275px;
-    bottom: 25px
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #1b4db9;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 7px 16px;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  #textexpotec-oqueeexpotec,#textexpotec-objetivoexpotec {
+    width: 60% ;
+    font-size: 0.8rem;
+    bottom: 100px;
+    right:50%
+  }
+  #expo1 {
+  position: relative;
+  font-size: 5rem;
+  top: 20vh;
+  right: 210px;  
+  width: 300px;
+}
+
+#expo2 {
+  position: relative;
+  font-size:5rem;
+  top: 5vh;
+  left: 70px;
+  text-shadow: 0 0 5px #1b4db9, 0 0 10px #1b4db9;
+
+  
+}
+#frsprin {
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  top:8vh;
+  right: 200px;
+  font-size: 1.2rem;
+  text-shadow: 0 0 3px #ffffff, 0 0 4px #ffffff, 0 0 0px #ffffff;
+}
+
+.oqueeexpotec {
+  top: 10vh;
+  right: 60%;
+}
+
+.objetivoexpotec {
+  top: 25vh;
+  right: 60%;
+}
+#year {
+  position: relative;
+  font-size: 3rem;
+  top: 20vh;
+  right: 200px;  
+  width: 300px;
+  color: #4f6caa;
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffff; /* cor do texto */
+  text-shadow: 0 0 3px #ffffff, 0 0 4px #ffffff, 0 0 0px #ffffff;
+}
+#about, .about {
+
+  font-size: 1.6rem;
+  top: 45px;
+  right: 30%;
+  width: 600px;
+}
+#about{
+  position: relative;
+  font-size: 1.6rem;
+  top: 20vh;
+  right: 200px;  
+  width: 300px;
+
+}
+  #foto_incial {
+    width: 50%;
+    height: 50%;
+    top: 10px;
+    right:0px
+  }
+
+  .img_sobre {
+    width: 25%;
+    height: 25%;
+    right: 50px;
+    gap: 10px;
+  }
+  #img1 {
+    position: relative;
+    bottom: 400px;
+    left: 250px;
+}
+
+#img2 {
+    position: relative;
+    bottom: 270px;
+    left: 250px;
+}
+
+#img3 {
+    position: relative;
+    bottom: 200px;
+    right: 5vh;
+}
+
+#img4 {
+    position: relative;
+    left: 250px;
+    bottom:180px ;
+}
+
 }
