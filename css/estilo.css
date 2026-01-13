@@ -1,7 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-}
+
 body {
   background-image: linear-gradient(90deg, #020d42, #040147);
   min-height: 100vh;
