@@ -6,7 +6,7 @@ body {
   background-image: linear-gradient(90deg, #020d42, #040147);
   min-height: 100vh;
   overflow-x: hidden;
-  
+  height: 6000px;
 }
 
 html {
@@ -261,6 +261,33 @@ section {
   font-size: 2rem;
   padding: 7px 16px;
 }
+
+.registros {
+  height: 230px;
+  position: relative;
+  top: 20px;
+}
+
+.carossel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carossel-track {
+  display: flex;
+  gap: 10px;
+  animation: mover 30s linear infinite;
+}
+
+@keyframes mover {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 1rem;
