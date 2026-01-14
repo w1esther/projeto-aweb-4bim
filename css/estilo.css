@@ -152,14 +152,37 @@ section[id^="section-day"] h1 {
   text-align: left;
   font-size: 4rem;
   margin-bottom: 2rem;
+  margin-left: 100px;
 }
 
-.carossel {
+.carossel1 {
   overflow: hidden;
   width: 100%;
 }
 
-.carossel-track {
+.carossel-track1 {
+  display: flex;
+  gap: 1rem;
+  animation: mover 30s linear infinite;
+}
+
+.carossel2 {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carossel-track2 {
+  display: flex;
+  gap: 1rem;
+  animation: mover 30s linear infinite;
+}
+
+.carossel3 {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carossel-track3 {
   display: flex;
   gap: 1rem;
   animation: mover 30s linear infinite;
