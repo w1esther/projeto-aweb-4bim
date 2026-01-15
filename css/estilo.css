@@ -51,7 +51,9 @@ body {
 }
 
 .hero-text {
+  position: relative;
   max-width: 600px;
+  top: 75px
 }
 
 #about {
@@ -135,6 +137,17 @@ body {
   object-fit: cover;
   box-shadow: 0 0 20px #081c74;
 }
+
+/* DIAS */
+  #section-day1,
+  #section-day2,
+  #section-day3,
+  #section-day4,
+  #section-day5 {
+    padding: 120px 40px;
+    margin-left: 65px;
+  }
+
 section[id^="section-day"] {
   padding: 9rem 0;
   text-align: left;
