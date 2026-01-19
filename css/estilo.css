@@ -136,6 +136,11 @@ body {
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 0 20px #081c74;
+  transition: transform 0.3s ease;
+}
+
+.img_sobre:hover {
+  transform: scale(1.1);
 }
 
 /* DIAS */
@@ -227,6 +232,12 @@ section[id^="section-day"] h1 {
 .registros {
   height: 200px;
   border-radius: 10px;
+}
+
+.dias {
+  position: relative;
+  left: 110px;
+  bottom: 50px;
 }
 
 @keyframes mover {
