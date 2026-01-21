@@ -164,6 +164,41 @@ body {
     margin-left: 65px;
 }
 
+#texto_of {
+  position: relative;
+  top: 75px;
+}
+
+#texto_mini{
+  position: relative;
+  top: 70px;
+}
+
+#rpp {
+  position: relative;
+  top: 70px;
+}
+
+#robotica {
+  position: relative;
+  top: 70px;
+}
+
+#ao {
+  position: relative;
+  top: 70px;
+}
+
+#mostra {
+  position: relative;
+  top: 70px;
+}
+
+#top {
+  position: relative;
+  top: 75px;
+}
+
 #dia1 {
   position: relative;
   bottom: 30px;
