@@ -42,6 +42,12 @@ body {
   transform: translateY(-2px);
 }
 
+.user {
+  margin-left: 500px;
+  position: relative;
+  bottom: 10px;
+}
+
 .hero {
   min-height: 100vh;
   display: grid;
