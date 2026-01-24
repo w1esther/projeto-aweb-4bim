@@ -42,20 +42,23 @@ body {
   transform: translateY(-2px);
 }
 
+#menu ul {
+  justify-content: space-between;
+}
+
 .user {
-  margin-left: 500px;
-  position: relative;
-  bottom: 10px;
+  margin-left: auto;
 }
 
 .hero {
   min-height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 5rem 8%;
   gap: 2rem;
 }
+
 
 .hero-text {
   position: relative;
@@ -160,50 +163,15 @@ body {
   width: 500px;
 }
 
-/* DIAS */
-  #section-day1,
-  #section-day2,
-  #section-day3,
-  #section-day4,
-  #section-day5 {
-    padding: 120px 40px;
-    margin-left: 65px;
+#section-day1,
+#section-day2,
+#section-day3,
+#section-day4,
+#section-day5 {
+  padding: 120px 40px;
+  margin-left: 0;
 }
 
-#texto_of {
-  position: relative;
-  top: 75px;
-}
-
-#texto_mini{
-  position: relative;
-  top: 70px;
-}
-
-#rpp {
-  position: relative;
-  top: 70px;
-}
-
-#robotica {
-  position: relative;
-  top: 70px;
-}
-
-#ao {
-  position: relative;
-  top: 70px;
-}
-
-#mostra {
-  position: relative;
-  top: 70px;
-}
-
-#top {
-  position: relative;
-  top: 75px;
-}
 
 #dia1 {
   position: relative;
@@ -211,67 +179,50 @@ body {
   left: 30px;
 }
 
-.img-row-1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
+.img-row-1,
 .img-row-2 {
-  margin-top: 100px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .img-frame {
   display: flex;
-  width: 400px;
-  height: 250px;
+  align-items: center;
+  gap: 16px;
+  width: 40%;
+  min-width: 280px;
   background-color: #2d16ff;
   border-radius: 10px;
-  box-shadow: 20px 20px 20px #081c74;
-  margin-bottom: 20px;
+  box-shadow: 0 12px 25px #081c74;
+  margin-bottom: 24px;
   transition: transform 0.3s ease;
 }
+
 
 .img-frame:hover {
   transform: scale(1.1);
 }
 
+
 .imgdias {
-  height: 220px;
   width: 180px;
-  position: relative;
-  top: 15px;
-  left: 10px;
+  height: 220px;
   border-radius: 10px;
   object-fit: cover;
 }
 
 .texto_dias {
-  position: relative;
-  font-size: 14px;
-  top: 50px;
-  width: 300px;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  margin-top: 12px;
   text-align: left;
-  left: 17px;
 }
 
-#texto3 {
-  position: relative;
-  top: 70px;
-}
 
-#texto5 {
-  position: relative;
-  top: 70px;
-}
-
-#texto6 {
-  position: relative;
-  top: 85px;
-}
 
 section[id^="section-day"] {
   padding: 9rem 0;
@@ -419,70 +370,84 @@ section[id^="section-day"] h1 {
     text-align: center;
   }
 }
-
-/* CELULAR */
 @media (max-width: 768px) {
 
-  /* MENU */
-  #menu ul {
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 10px;
+  /* ====== ESPAÇAMENTO GERAL ====== */
+  section {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
   }
 
-  #menu li a {
-    font-size: 14px;
-    padding: 8px 12px;
+  section[id^="section-day"] {
+    padding: 32px 12px !important;
   }
 
-  /* HERO */
-  .hero {
-    padding-top: 140px;
+  /* ====== TÍTULOS DOS DIAS ====== */
+  .t1 {
+    width: fit-content;
+    padding: 6px 12px;
   }
 
-  #expo1,
-  #expo2 {
-    font-size: 3.0rem;
+  .dias {
+    font-size: 1.4rem;
+    left: 0;
   }
 
-  #year {
-    font-size: 1.5rem;
+  /* ====== LISTAS DE CARDS ====== */
+  .img-row-1,
+  .img-row-2 {
+    gap: 12px;
   }
 
-  #frsprin {
-    font-size: 0.9rem;
-    max-width: 100%;
-  }
-
-  .hero-image img {
+  /* ====== CARD ====== */
+  .img-frame {
     width: 100%;
+    padding: 10px;
+    box-shadow: 8px 8px 15px #081c74;
   }
 
-  /* ABOUT TEXT */
+  /* ====== IMAGEM ====== */
+  .imgdias {
+    width: 100%;
+    max-height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  /* ====== TEXTO ====== */
+  .texto_dias {
+    font-size: 0.8rem;
+    line-height: 1.35;
+    margin-top: 6px;
+    text-align: left;
+  }
+
+  /* ====== ABOUT ====== */
+  #section-about {
+    padding: 40px 16px;
+    gap: 24px;
+  }
+
   #textexpotec-oqueeexpotec,
   #textexpotec-objetivoexpotec {
-    font-size: 0.9rem;
-    line-height: 1.6;
+    font-size: 0.85rem;
+    line-height: 1.5;
   }
 
-  /* IMAGENS SOBRE */
-  .img_sobre {
-    width: 110px;
-    height: 110px;
+  /* ====== REGISTROS ====== */
+  #registros {
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto 20px;
   }
 
-  /* REGISTROS */
   .registros {
-    width: 220px;
-    height: auto;
-  }
-
-  /* BOTÃO VOLTAR AO TOPO */
-  .back-top {
-    right: 15px;
-    bottom: 15px;
+    height: 140px;
   }
 }
+
+
 
 /* CELULAR PEQUENO */
 @media (max-width: 480px) {
